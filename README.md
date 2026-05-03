@@ -799,6 +799,9 @@ python -m newton.examples basic_urdf --device cuda:0
 
 # Combine options
 python -m newton.examples basic_viewer --viewer gl --num-frames 500 --device cpu
+
+# RL example
+uv run --extra learning -m newton.examples.robot.nextage_contact_train
 ```
 
 ## Contributing and Development
